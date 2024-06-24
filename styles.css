@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: DM sans;
+}
+
+
+.header span{
+    color: #a27b5c;
+}
+.header ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.header i {
+    display: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+.orderBtn{
+    background-color: #a27b5c;
+    border: none;
+    padding: 20px 40px;
+    color: white;
+
+}
+.signBtn{
+    background-color: transparent;
+    border:3px #a27b5c solid;
+    color:#a27b5c ;
+    padding: 17px 40px;
+    margin-left: 25px;
+
+}
+.main-parent{
+    height: 700 px;
+    background-color: #fcf7ef;
+}
+.main-parent h1{
+    padding-top: 20px;
+    font-size: 80px;
+    text-align: center;
+}
+.main-parent p{
+    text-align: center;
+    font-size: 20px;
+}.main-parent img{
+    width: 1192px;
+    height:404px ;
+    margin-left: 170px;
+}
+.main-parent h2, h6{
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.main-parent h6{
+    color: rgb(133, 127, 127);
+}
+.blog-parent img{
+    width:200px ;
+}
+.blog-parent{
+    display: flex;
+    gap:20px;
+    border-top:1px black solid;
+    /*border-bottom:1px black solid;*/
+    padding: 20px;
+    margin: 20px 170px;
+}
+.blog-parent h3{
+    font-size: 30px;
+}
+.footer{
+    color: white;
+    background-color: black;
+    height: 500px;
+}
+.location{
+    text-align: center;
+    border-bottom: 1px white solid;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    margin: 20px 170px;
+}
+.footer-2 {
+    margin-left: 500px;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width:600px) {
+    .header ul {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+
+    .header i {
+        display: block;
+        font-size: 60px;
+
+    }
+    .header {
+        padding: 20px;
+    }
+.main-parent h1 {
+    font-size: 50px;
+}
+ .main-parent p{
+    font-size: 25px;
+ }
+ .main-parent h2, h6 {
+    margin: 10px 30px ;
+    font-size: 18px;
+ }
+ .main-parent h6 {
+    margin: 10px 30px;
+ }
+ .main-parent img {
+    width: 330px;
+    margin-top: 12px;
+    margin-left: 30px;
+ }
+ .blog-parent {
+    flex-direction: column;
+    margin: 0;
+ } 
+
+ .blog-parent h1 {
+    font-size: 20px;
+ }
+ .blog-parent img {
+    width: 100%;
+ }
+ .blog-parent p {
+    font-size: 20px;
+    padding-top: 10px;
+ }
+ 
+ .footer h1, p {
+    font-size: 20px;
+   
+ }
+ .footer {
+    height: 600px;
+ }
+ .location {
+    width: 150px;
+    align-items: center;
+ }
+ .footer-2 {
+    margin-left: 200px;
+ }
+}
