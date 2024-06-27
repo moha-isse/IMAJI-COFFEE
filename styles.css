@@ -4,7 +4,9 @@
     padding: 0;
     font-family: DM sans;
 }
-
+.header h1 {
+    margin-left: 10px;
+}
 
 .header span{
     color: #a27b5c;
@@ -21,6 +23,7 @@
 .header i {
     display: none;
 }
+
 
 .header{
     display: flex;
@@ -43,25 +46,35 @@
 
 }
 .main-parent{
-    height: 700 px;
+    height: 700px;
     background-color: #fcf7ef;
+    
 }
 .main-parent h1{
     padding-top: 20px;
     font-size: 80px;
     text-align: center;
+    padding-bottom: 10px;
 }
 .main-parent p{
     text-align: center;
     font-size: 20px;
-}.main-parent img{
-    width: 1192px;
+    padding-bottom: 40px;
+    
+}
+.main-parent img{
+    width: 700px;
+    
     height:404px ;
-    margin-left: 170px;
+   
+    margin-left: 250px;
+    border-radius: 10px;
+    /* margin-right: 40px; */
+    
 }
 .main-parent h2, h6{
     margin-top: 20px;
-    margin-left: 170px;
+    margin-left: 250px;
 }
 .main-parent h6{
     color: rgb(133, 127, 127);
@@ -93,11 +106,33 @@
     margin: 20px 170px;
 }
 .footer-2 {
-    margin-left: 500px;
-    padding: 10px;
+    
+   
+    font-size: 30px;
     
 }
-
+.footer-2parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+    margin-left: 40px;
+    margin: 60px;
+}
+.footer-3 {
+    margin-right: 60px;
+    font-size: 30px;
+}
+.footer-4 {
+    font-size: 10px;
+    color: #a27b5c;
+}
+.footer-4parent {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
 @media screen and (max-width:600px) {
     .header ul {
         display: none;
@@ -125,7 +160,7 @@
     font-size: 18px;
  }
  .main-parent h6 {
-    margin: 10px 30px;
+    display: none;
  }
  .main-parent img {
     width: 330px;
@@ -154,13 +189,27 @@
    
  }
  .footer {
-    height: 600px;
+    height: 900px;
  }
  .location {
     width: 150px;
     align-items: center;
  }
- .footer-2 {
+ /* .footer-2 {
     margin-left: 200px;
+ } */
+ .footer-2parent {
+    flex-direction: column;
+ }
+ .footer-4parent {
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding: 10px;
+ }
+ .footer-4{
+    padding-top: 10px;
+ }
+ .footer-2{
+    padding-bottom: 10px;
  }
 }
